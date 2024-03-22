@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rock+3D&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rock+3D&family=Rubik+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(/images/background.jpeg);
+}
+nav h1 {
+  text-align: center;
+  font-family: "Rock 3D";
+  font-size: 3.8rem;
+  color: rgb(222, 222, 222);
+}
+.container {
+  display: grid;
+  max-width: 700px;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  color: rgb(227, 227, 227);
+  font-family: "Rubik Bubbles";
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 60px;
+}
+.container div {
+  padding: 30px;
+  border: 5px dotted white;
+  margin-bottom: 10px;
+  height: 90px;
+  cursor: pointer;
+}
+.container div:hover {
+  background-color: #123222;
+}
+.container div:nth-child(2) {
+  margin-top: 90px;
+}
+.container div:nth-child(4) {
+  margin-top: 30px;
+}
+.container div:nth-child(3) {
+  margin-top: -60px;
+}
+.container div:nth-child(5) {
+  margin-top: -60px;
+}
